@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_613b5a610a8c499e1741a32da06bfe36 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_613b5a610a8c499e1741a32da06bfe36" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_613b5a610a8c499e1741a32da06bfe36 = L.map(
+                "map_613b5a610a8c499e1741a32da06bfe36",
+                {
+                    center: [39.0, 16.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a37dd60dba6db70617e9c5a46decca4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_613b5a610a8c499e1741a32da06bfe36);
+        
+    
+            var marker_fdc3259cf2c7c522e8bf9a106f8f5f43 = L.marker(
+                [39.2975, 16.4814],
+                {}
+            ).addTo(map_613b5a610a8c499e1741a32da06bfe36);
+        
+    
+        var popup_e55f824472d2e7e8f2af747619d0bf73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca7bb0b860b4c862bf0ce265a5e8f47d = $(`<div id="html_ca7bb0b860b4c862bf0ce265a5e8f47d" style="width: 100.0%; height: 100.0%;">Lorica (Sila)</div>`)[0];
+            popup_e55f824472d2e7e8f2af747619d0bf73.setContent(html_ca7bb0b860b4c862bf0ce265a5e8f47d);
+        
+
+        marker_fdc3259cf2c7c522e8bf9a106f8f5f43.bindPopup(popup_e55f824472d2e7e8f2af747619d0bf73)
+        ;
+
+        
+    
+    
+            var marker_7cc3d4af97dc0d0e285c1f2f254d7836 = L.marker(
+                [38.6766, 15.899],
+                {}
+            ).addTo(map_613b5a610a8c499e1741a32da06bfe36);
+        
+    
+        var popup_62a5e97e2e9e5c5afc17a309a58f6c6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dbcec724a76a0f650117f2a22d3047b = $(`<div id="html_5dbcec724a76a0f650117f2a22d3047b" style="width: 100.0%; height: 100.0%;">Tropea</div>`)[0];
+            popup_62a5e97e2e9e5c5afc17a309a58f6c6b.setContent(html_5dbcec724a76a0f650117f2a22d3047b);
+        
+
+        marker_7cc3d4af97dc0d0e285c1f2f254d7836.bindPopup(popup_62a5e97e2e9e5c5afc17a309a58f6c6b)
+        ;
+
+        
+    
+    
+            var marker_5051aa5fd5d0593df23d900b33e80098 = L.marker(
+                [38.2504, 15.7189],
+                {}
+            ).addTo(map_613b5a610a8c499e1741a32da06bfe36);
+        
+    
+        var popup_b9ccc06f9f9c5c608af7860ccaede564 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_117ad74af6e5af286ba920902ab27e06 = $(`<div id="html_117ad74af6e5af286ba920902ab27e06" style="width: 100.0%; height: 100.0%;">Scilla</div>`)[0];
+            popup_b9ccc06f9f9c5c608af7860ccaede564.setContent(html_117ad74af6e5af286ba920902ab27e06);
+        
+
+        marker_5051aa5fd5d0593df23d900b33e80098.bindPopup(popup_b9ccc06f9f9c5c608af7860ccaede564)
+        ;
+
+        
+    
+    
+            var marker_64fa2c8384732f203e7f26b8827b17e5 = L.marker(
+                [39.3212, 16.4027],
+                {}
+            ).addTo(map_613b5a610a8c499e1741a32da06bfe36);
+        
+    
+        var popup_f14c8d8f8aac3be5b782c53e9ed37f05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a087cb299e6702b4ad707acd584d1af = $(`<div id="html_3a087cb299e6702b4ad707acd584d1af" style="width: 100.0%; height: 100.0%;">Camigliatello Silano</div>`)[0];
+            popup_f14c8d8f8aac3be5b782c53e9ed37f05.setContent(html_3a087cb299e6702b4ad707acd584d1af);
+        
+
+        marker_64fa2c8384732f203e7f26b8827b17e5.bindPopup(popup_f14c8d8f8aac3be5b782c53e9ed37f05)
+        ;
+
+        
+    
+    
+            var marker_4964f7fd78ea2d775fce0f9e83eabb97 = L.marker(
+                [38.2532, 15.7197],
+                {}
+            ).addTo(map_613b5a610a8c499e1741a32da06bfe36);
+        
+    
+        var popup_53917a26be8c13f6acfc19f1b06feeac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_850049813d944638a5c0f241bd06a888 = $(`<div id="html_850049813d944638a5c0f241bd06a888" style="width: 100.0%; height: 100.0%;">Chianalea di Scilla</div>`)[0];
+            popup_53917a26be8c13f6acfc19f1b06feeac.setContent(html_850049813d944638a5c0f241bd06a888);
+        
+
+        marker_4964f7fd78ea2d775fce0f9e83eabb97.bindPopup(popup_53917a26be8c13f6acfc19f1b06feeac)
+        ;
+
+        
+    
+</script>
+</html>
